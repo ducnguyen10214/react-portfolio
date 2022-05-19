@@ -46,7 +46,7 @@
       font-size: 20px;
       color: #ffffff;
       font-family: sans-serif;
-      font-weight: 300;
+      font-weight: 500;
       min-width: fit-content;
     }
   }
@@ -60,6 +60,7 @@
 }
 
 .skills-page {
+  overflow: hidden;
   ul {
     opacity: 0;
     animation: fadeIn 1.5s 1s forwards;
