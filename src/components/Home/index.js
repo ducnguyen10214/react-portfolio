@@ -10,7 +10,7 @@ const Home = () => {
             onInit={(typewriter) => {
               typewriter
                 .changeDelay(50)
-                .typeString("<h1>Hi, <br />I'm Duc<br />UC Berkeley Undergraduate</h1><h2>An EECS Major</h2>")
+                .typeString("<h1>Hi, <br />I'm Duc<br />UC Berkeley Undergrad</h1><h2>An EECS Major</h2>")
                 .start()
             }}
           />

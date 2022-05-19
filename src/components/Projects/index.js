@@ -26,7 +26,7 @@ const Project = () => {
             <img src={Scheme} width="50%" height="100%" alt="scheme" />
             <div className='description'>
               <p className='title'>Scheme Interpreter</p>
-              <p>A LISP interpreter for Scheme written in Python</p>
+              <p>A LISP interpreter for Scheme written in Python, mostly implemented using input parsing and recursion with tail optimization.</p>
             </div>
           </Fade>
         </div>
@@ -35,7 +35,7 @@ const Project = () => {
             <img src={Pathfinder} width="50%" height="100%" alt="pathfinder" />
             <div className='description'>
               <p className='title'>Pathfinding Visualizer</p>
-              <p>A simulation based on shortest-path algorithms</p>
+              <p>A simulation to find the shortest way to go from one node to another based on two shortest-path algorithms: Djikstra's and A*'s. The simulation can also generate a maze using DFS concept.</p>
             </div>
           </Fade>
         </div>
@@ -44,7 +44,7 @@ const Project = () => {
             <img src={Enigma} width="50%" height="100%" alt="enigma" />
             <div className='description'>
               <p className='title'>Enigma</p>
-              <p>A simulation of the famous Enigma machine during WWII</p>
+              <p>A simulation of the famous Enigma machine during WWII that encompasses both encryption and decryption functions. This simulation can work with more characters than the original version.</p>
             </div>
           </Fade>
         </div>
@@ -53,7 +53,7 @@ const Project = () => {
             <img src={Jump61B} width="50%" height="100%" alt="jump" />
             <div className='description'>
               <p className='title'>Jump61B</p>
-              <p>A board game with AI mode based on Minimax algorithm</p>
+              <p>A board game with size-changeable board and 2 modes of playing: 1 PvP, and 1 AI mode implemented based on the Minimax algorithm in Game Theory.</p>
             </div>
           </Fade>
         </div>
@@ -62,7 +62,7 @@ const Project = () => {
             <img src={Gitlet} width="50%" height="100%" alt="gitlet" />
             <div className='description'>
               <p className='title'>Gitlet</p>
-              <p>A version control system inspired by the famous Git</p>
+              <p>A version-control system with features inspired by the famous Git: saving contents, reverting, viewing logs, maintaing and merging branches; can work both locally and remotely.</p>
             </div>
           </Fade>
         </div>
@@ -70,8 +70,8 @@ const Project = () => {
           <Fade bottom duration={600}> 
             <img src={Sixteen} width="50%" height="100%" alt="sixteen" />
             <div className='description'>
-              <p className='title'>SIXT33N</p>
-              <p>A self-driving car sim controlled by voice commands</p>
+              <p className='title'>S1XT33N</p>
+              <p>A car simulation built on Tinkercad with the Arduino microcontroller and several other circuit components. The car is controlled by voice commands, which works based on SVD/PCA and Nearest-Neighbor Classification.</p>
             </div>
           </Fade>
         </div>
