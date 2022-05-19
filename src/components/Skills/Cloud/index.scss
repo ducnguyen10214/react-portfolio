@@ -1,0 +1,17 @@
+.cloud-container {
+    position: absolute;
+    right: auto;
+    top: 50%;
+    bottom: 50%;
+    left: 55%;
+    margin: auto;
+    width: 40%;
+    height: 70%;
+    border-radius: 50%;
+    animation: fadeIn 1.5s 1s forwards;
+    opacity: 0;
+}
+
+@keyframes blinker {
+  50% { opacity: 0.0; }
+}
