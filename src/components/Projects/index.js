@@ -53,7 +53,7 @@ const Project = () => {
             <img src={Jump61B} width="50%" height="100%" alt="jump" />
             <div className='description'>
               <p className='title'>Jump61B</p>
-              <p>A board game with size-changeable board and 2 modes of playing: 1 PvP, and 1 AI mode implemented based on the Minimax algorithm in Game Theory.</p>
+              <p>A board game inspired by KJumpingCube of the KDE project with size-changeable board and 2 modes of playing: 1 PvP, and 1 AI mode implemented based on the Minimax algorithm in Game Theory.</p>
             </div>
           </Fade>
         </div>
